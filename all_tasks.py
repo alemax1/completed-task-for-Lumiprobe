@@ -44,7 +44,7 @@ print(sqrt(number))
 string_of_brackets = str(input())
 
 
-def correct_brackets(x: str):
+def correct_brackets(string_of_brackets: str):
     count_of_lb = string_of_brackets.count('(')
     count_of_rb = string_of_brackets.count(')')
     if count_of_lb == count_of_rb:
